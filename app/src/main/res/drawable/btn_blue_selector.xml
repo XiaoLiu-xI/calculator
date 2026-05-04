@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按下状态：深蓝渐变 -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#007799"
+                android:endColor="#0088bb"
+                android:angle="90"/>
+            <corners android:radius="2dp"/>
+        </shape>
+    </item>
+    <!-- 正常状态：基础亮蓝渐变 -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#0099cc"
+                android:endColor="#00aadd"
+                android:angle="90"/>
+            <corners android:radius="2dp"/>
+        </shape>
+    </item>
+</selector>

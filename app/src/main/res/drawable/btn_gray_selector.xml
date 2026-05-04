@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按下状态：深灰渐变，模拟按压下沉感 -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#1a1a1a"
+                android:endColor="#2d2d2d"
+                android:angle="90"/>
+            <!-- 可选：2dp圆角更柔和，不需要可删除此行，0为直角 -->
+            <corners android:radius="2dp"/>
+        </shape>
+    </item>
+    <!-- 正常状态：基础深灰渐变 -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#333333"
+                android:endColor="#444444"
+                android:angle="90"/>
+            <corners android:radius="2dp"/>
+        </shape>
+    </item>
+</selector>
