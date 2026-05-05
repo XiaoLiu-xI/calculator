@@ -18,7 +18,7 @@
 
 - 语言：Java
 - 平台：Android
-- 构建工具：Gradle
+- 构建工具：AIDE Pro
 
 ## 项目结构
 
@@ -44,6 +44,7 @@ git clone https://github.com/XiaoLiu-xI/calculator.git
 2. 使用 Android Studio 打开项目
 3. 连接设备或启动模拟器
 4. 点击 Run 运行应用
+5. 或者从Releases下载
 
 ## 版本信息
 
